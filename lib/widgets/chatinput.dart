@@ -15,7 +15,7 @@ class ChatInput extends StatefulWidget {
 
 Future<DataModel?> submitData(String message) async {
   var response = await http.post(
-    Uri.parse('https://wv67b4xf-5000.asse.devtunnels.ms/api/chatbot'),
+    Uri.parse('http://jasper08.pythonanywhere.com/api/chatbot'),
     headers: {
       'Content-Type': 'application/json',
     },
